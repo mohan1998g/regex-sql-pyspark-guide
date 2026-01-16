@@ -21,7 +21,7 @@ Greedy: * + ?   Non-greedy: *? +? ??
 
 ## Anchors & Boundaries
 ```
-^ start  $ end   word-boundary  \B non-boundary  \A start  \Z end
+^ start  $ end  \b word-boundary  \B non-boundary  \A start  \Z end
 ```
 
 ## Groups & Lookarounds
